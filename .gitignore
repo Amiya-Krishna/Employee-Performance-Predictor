@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (optional if large)
+*.pkl
+*.joblib
+
+# Data files (optional - if large or sensitive)
+data/raw/
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Large datasets (optional)
+*.csv
+*.xlsx
+
+# MLflow
+mlruns/
+
+# Tensorboard logs
+logs/
